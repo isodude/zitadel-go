@@ -56,6 +56,9 @@ func NewConnection(issuer, api string, scopes []string, options ...Option) (*Con
 		return nil, err
 	}
 	dialOptions = append(dialOptions, opt)
+	if s := strings.Split(api, ":"); len(s) > 1 && s[1] != "443" {
+		dialOptions = append(dialOptions, grpc.WithAuthority(api))
+	}
 	conn, err := grpc.Dial(c.api, dialOptions...)
 	if err != nil {
 		return nil, err
