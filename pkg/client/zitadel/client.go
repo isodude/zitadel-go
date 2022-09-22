@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/zitadel/zitadel-go/v2/pkg/client/middleware"
+	"github.com/isodude/zitadel-go/v2/pkg/client/middleware"
 )
 
 type Connection struct {

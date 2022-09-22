@@ -8,7 +8,7 @@ package settings
 
 import (
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	object "github.com/zitadel/zitadel-go/v2/pkg/client/zitadel/object"
+	object "github.com/isodude/zitadel-go/v2/pkg/client/zitadel/object"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	http_mw "github.com/zitadel/zitadel-go/v2/pkg/api/middleware/http"
-	"github.com/zitadel/zitadel-go/v2/pkg/client/middleware"
+	http_mw "github.com/isodude/zitadel-go/v2/pkg/api/middleware/http"
+	"github.com/isodude/zitadel-go/v2/pkg/client/middleware"
 )
 
 var (

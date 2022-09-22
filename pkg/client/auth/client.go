@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/zitadel/zitadel-go/v2/pkg/client/zitadel"
-	"github.com/zitadel/zitadel-go/v2/pkg/client/zitadel/auth"
+	"github.com/isodude/zitadel-go/v2/pkg/client/zitadel"
+	"github.com/isodude/zitadel-go/v2/pkg/client/zitadel/auth"
 )
 
 type Client struct {

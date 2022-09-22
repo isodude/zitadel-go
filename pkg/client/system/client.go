@@ -10,9 +10,9 @@ import (
 	"golang.org/x/oauth2"
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/zitadel/zitadel-go/v2/pkg/client/middleware"
-	"github.com/zitadel/zitadel-go/v2/pkg/client/zitadel"
-	"github.com/zitadel/zitadel-go/v2/pkg/client/zitadel/system"
+	"github.com/isodude/zitadel-go/v2/pkg/client/middleware"
+	"github.com/isodude/zitadel-go/v2/pkg/client/zitadel"
+	"github.com/isodude/zitadel-go/v2/pkg/client/zitadel/system"
 )
 
 type Client struct {

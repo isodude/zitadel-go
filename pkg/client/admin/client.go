@@ -1,8 +1,8 @@
 package admin
 
 import (
-	"github.com/zitadel/zitadel-go/v2/pkg/client/zitadel"
-	"github.com/zitadel/zitadel-go/v2/pkg/client/zitadel/admin"
+	"github.com/isodude/zitadel-go/v2/pkg/client/zitadel"
+	"github.com/isodude/zitadel-go/v2/pkg/client/zitadel/admin"
 )
 
 type Client struct {
